@@ -21,7 +21,7 @@
 	\node[codefile](eye_motion){EyeMotion.py};
 	\node[params,below=0.6cm of eye_motion](motion_params){motion parameters};
 
-	\node[datafile,right=of eye_motion](displacements){displacements.np\\$<$numpy vector$>$};
+	\node[datafile,right=of eye_motion](displacements){displacement.npy\\$<$numpy vector$>$};
 
 	\node[codefile,right=of displacements](distort_raster_scan){DistortRasterScan.py};
 	\node[datafile,above=0.6cm of distort_raster_scan](input_image){input image\\$<$image file$>$};
